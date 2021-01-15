@@ -64,8 +64,8 @@ const SignUp: React.FC = () => {
       }
 
       Alert.alert(
-        'Erro na Autenticação',
-        'Ocorreu um erro ao fazer login, cheque as credenciais',
+        'Erro no cadastro',
+        'Ocorreu um erro ao fazer cadastro, tente novamente',
       );
     }
   }, []);
